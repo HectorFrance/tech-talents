@@ -1,27 +1,51 @@
-# TechTalents
+# Banco de Talentos - Plataforma para Tech Recruiters
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
+Este projeto é uma aplicação fullstack desenvolvida como estudo, com o objetivo de criar uma **plataforma para recrutadores técnicos** gerenciarem seus próprios bancos de talentos. Através dela, é possível cadastrar candidatos, organizar suas informações, habilidades técnicas e registrar observações pessoais.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![PL](https://img.shields.io/badge/PL%2FSQL-FFFFFF?style=for-the-badge&logo=oracle&logoColor=FF0000&labelColor=FFFFFF&color=FF0000)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-boostrap-0D1117?style=for-the-badge&logo=bootstrap&labelColor=0D1117)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HectorFrance)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+### Backend
+- **Java 24**
+- **Spring Boot**
+  - Spring Data JPA
+  - Spring Security (JWT)
+  - Spring Web
+- **MySQL**
+- **Swagger** (Documentação da API)
+- **Docker** (para conteinerização)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Frontend
+- **Angular 17**
+- **TypeScript**
+- **Bootstrap**
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Funcionalidades
 
-## Running end-to-end tests
+### Para Recrutadores:
+- Cadastro e login seguro com **JWT (access & refresh token)**
+- Cadastro de candidatos com:
+  - Nome completo
+  - Contato
+  - Stack principal
+  - Lista de **skills** com nível (ex: Junior, Pleno, Sênior)
+  - Observações personalizadas
+- Edição e remoção de candidatos
+- Filtro e pesquisa por nome, stack ou skill
+- Dashboard com visão geral dos candidatos cadastrados
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
